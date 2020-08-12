@@ -1,0 +1,129 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/**!----------------- Reusable items ---------------*/
+.para{
+    font-family: "Poppins",sans-serif;
+    color: gray;
+    font-size: 15px;
+}
+
+.head-title{
+    font-weight: bold;
+    font-family: "Poppins",sans-serif;
+}
+/**!----------------- Reusable items ---------------*/
+
+/**!----------------- section hero ---------------*/
+.section-hero{
+    height: 80vh;
+    background-image: linear-gradient(rgba(1, 0, 0, .8), rgba(114, 112, 113, 0.8) ),  url(../img/hero-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+}
+
+.hero-main-title{
+    font-family: "Poppins",sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.main-title{
+    font-family: "Poppins",sans-serif;
+    font-weight: bold;
+    color: rgb(61, 61, 61);
+}
+
+.hero-sub-title{
+    font-family: "Poppins",sans-serif;
+}
+
+.hero-button{
+    padding: 10px 40px;
+    border-radius: 25px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    margin-top: 80px;  
+    font-weight: bold;
+}
+
+.hero-button:hover{
+    border: 2px solid rgb(2, 196, 176);
+    background-color: rgb(2, 196, 176);
+    transition: all ease-in-out 0.5s;
+
+}
+/**!----------------- section hero ---------------*/
+
+/**!----------------- About us---------------*/
+.section-about{
+    margin-top: 80px;
+}
+
+ a.link-title{
+    text-decoration: none;
+ }
+
+ .link-title{
+     color: rgb(68, 67, 67);
+ }
+
+ .link-title:hover{
+    color:rgb(68, 67, 67);
+ }
+
+ .sub-para{
+     font-family: "Poppins",sans-serif;
+     font-size: 14px;
+     color:gray;
+ }
+
+ .icon-type{
+     border: 2px solid rgb(2, 196, 176);
+     padding: 20px 10px;
+     border-radius: 50%;
+     margin: 10px 0;
+     color: rgb(2, 196, 176);
+ }
+
+ .section-about__img-container{
+     overflow-y: hidden;
+     margin-right: -250px;
+ }
+/**!----------------- About us---------------*/
+
+
+/**!----------------- Facts---------------*/
+.number-type{
+    font-size: 50px;
+    color: rgb(2, 196, 176);
+}
+
+.section-facts{
+    margin: 50px;
+    
+    background-color: rgb(247,247,247);
+    padding: 70px;
+}
+
+.section-facts__counter-items{
+    margin: 60px;
+    padding-bottom: ;
+}
+/**!----------------- Facts---------------*/
+
+
+/**!----------------- section-service---------------*/
+.service-items__items{
+    border: 1px solid gray;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+/**!----------------- section-service---------------*/
