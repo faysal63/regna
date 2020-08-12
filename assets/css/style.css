@@ -99,7 +99,7 @@ body{
 /**!----------------- About us---------------*/
 
 
-/**!----------------- Facts---------------*/
+/**!--------------------- Facts ------------------*/
 .number-type{
     font-size: 50px;
     color: rgb(2, 196, 176);
@@ -116,14 +116,14 @@ body{
     margin: 60px;
     padding-bottom: ;
 }
-/**!----------------- Facts---------------*/
+/**!-------------------- Facts --------------------*/
 
 
-/**!----------------- section-service---------------*/
+/**!----------------- section-service ---------------*/
 .service-items__items{
     border: 1px solid gray;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
 }
-/**!----------------- section-service---------------*/
+/**!----------------- section-service ---------------*/
