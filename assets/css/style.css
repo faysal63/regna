@@ -24,7 +24,7 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: local;
+    background-attachment: fixed;
 }
 
 .hero-main-title{
@@ -101,11 +101,7 @@ body{
      color: rgb(2, 196, 176);
  }
 
- .section-about__img-container{
-     overflow-y: hidden;
-     margin-right: -250px;
- }
-
+ 
  .about-us-icon::before{
      border: 2px solid rgb(2, 196, 176);
      padding: 10px 30px;
@@ -116,6 +112,14 @@ body{
      text-align: center;
      justify-content: center;
      display: flex;
+ }
+
+ .about-background{
+     background-image: url(/assets/img/about-img.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     min-height: 500px;
+
  }
 /**!-----------------!SECTION About us---------------*/
 
@@ -184,6 +188,7 @@ body{
     border: 2px solid rgb(2, 196, 176);
     background-color: white;
     color: rgb(2, 196, 176);
+    cursor: pointer;
 }
 
 /**!----------------- !SECTION SERVICE ---------------*/
@@ -224,3 +229,123 @@ body{
 }
 
 /**!----------------- !SECTION CALL ACTION ---------------*/
+
+
+/**!----------------- SECTION portfolio ---------------*/
+.section-porfolio__image-container{
+    overflow: hidden;
+}
+
+.section-porfolio{
+    margin-top: 100px;
+}
+
+.section-porfolio__text-container{
+    margin-bottom: 70px;
+}
+
+.section-porfolio__button-container{
+    margin-bottom: 50px;
+}
+
+.simple-button{
+    margin: 0 15px;
+    border: none;
+    background-color: rgb(2, 196, 176);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.hover-button{
+    margin: 0 15px;
+    border: none;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: gray;
+}
+
+.hover-button:hover{
+    background-color: rgb(2, 196, 176);
+    color: white;
+    transition: all ease-in-out 0.2s;
+}
+
+.image-margin{
+    height: 200px;
+    overflow: hidden !important;
+    margin-bottom: 15px;  
+}
+
+.image-margin:hover img{
+    top: -30px;
+}
+
+.image-margin:hover .image-details{
+    bottom: 0px;
+}
+
+.image-details{
+    background-color: rgb(2, 196, 176);
+    text-decoration: none;
+    color: white;
+    height: 50px;
+    font-size: 14px;
+    width: 100%;
+    
+    padding-left: 8px;
+    font-family: "Poppins",sans-serif;
+}
+
+.image-margin img {
+    position: absolute;
+    top: 0;
+    transition: all ease-in-out 0.4s;
+}
+
+.image-margin .image-details{
+    position: absolute;
+    bottom: -50px;
+    transition: all ease-in-out 0.2s;
+}
+/**!----------------- !SECTION portfolio ---------------*/
+
+/**!----------------- !SECTION TEAM ---------------*/
+.section-team{
+    margin-top: 150px;
+}
+
+.section-team__text-container{
+    margin-bottom: 70px;
+}
+
+.team-member__person-details{
+    margin-top: 50px;
+}
+.team-img{
+    width: 210PX;
+}
+
+.social-icon{
+    color: rgb(156, 154, 154); 
+}
+
+.social-icon:hover{
+    color: rgb(2, 196, 176);
+    text-decoration: none;
+}
+
+.member-heading{
+    color: rgb(104, 103, 103);
+    font-family: "Poppins",sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.member-para{
+    font-style: italic;
+    font-size: 14px;
+    color: gray;
+}
+/**!----------------- !SECTION TEAM ---------------*/

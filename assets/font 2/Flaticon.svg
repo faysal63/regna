@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2020-8-14: Created with FontForge (http://fontforge.org)
+-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata>
+Created by FontForge 20170731 at Fri Aug 14 09:19:54 2020
+ By root
+
+</metadata>
+<defs>
+<font id="Flaticon" horiz-adv-x="512" >
+  <font-face 
+    font-family="Flaticon"
+    font-weight="400"
+    font-stretch="normal"
+    units-per-em="512"
+    panose-1="2 0 5 3 0 0 0 0 0 0"
+    ascent="448"
+    descent="-64"
+    bbox="0 -64 512 448.502"
+    underline-thickness="25.6"
+    underline-position="-51.2"
+    unicode-range="U+0020-F102"
+  />
+    <missing-glyph />
+    <glyph glyph-name="space" unicode=" " horiz-adv-x="200" 
+ />
+    <glyph glyph-name="002-google-plus" unicode="&#xf101;" 
+d="M448 224h64v-32h-64v-64h-32v64h-64v32h64v64h32v-64zM160 224h160v-32c0 -88.2236 -71.7764 -160 -160 -160s-160 71.7764 -160 160s71.7764 160 160 160c38.4316 0 75.4238 -13.8242 104.224 -38.9121l-42.0479 -48.2559
+c-17.1514 14.9443 -39.2314 23.168 -62.1758 23.168c-52.9277 0 -96 -43.0723 -96 -96s43.0723 -96 96 -96c41.7275 0 77.3115 26.752 90.5283 64h-90.5283v64z" />
+    <glyph glyph-name="003-linkedin" unicode="&#xf102;" 
+d="M58.2666 448.502c35.2383 0 56.9209 -23.1357 57.5928 -53.543c0 -29.7363 -22.3545 -53.5312 -58.2754 -53.5312h-0.668945c-34.5664 0 -56.915 23.7949 -56.915 53.5312c0 30.4072 23.0352 53.543 58.2666 53.543zM58.2666 448.502zM6.08789 299.12h102.997v-309.871
+h-102.997v309.871zM6.08789 299.12zM361.895 306.393c67.7598 0 118.574 -44.29 118.574 -139.469v-177.675h-102.988v165.771c0 41.6572 -14.9053 70.0732 -52.1758 70.0732c-28.4541 0 -45.3984 -19.1641 -52.8447 -37.6631
+c-2.7207 -6.62402 -3.39258 -15.873 -3.39258 -25.1377v-173.044h-102.994v309.871h103v-44.9385s37.2578 52.2109 92.8213 52.2109zM361.895 306.393z" />
+    <glyph glyph-name="001-facebook" unicode="&#xf100;" 
+d="M288 272h96l-32 -80h-64v-256h-96v256h-64v80h64v80c0 53.0244 42.9756 96 96 96h64v-80h-32c-17.6641 0 -32 -14.3359 -32 -32v-64z" />
+  </font>
+</defs></svg>
