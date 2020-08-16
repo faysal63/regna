@@ -356,4 +356,9 @@ body{
 
 /**!----------------- !SECTION CONTACT US START ---------------*/
 
+.section-contact-us__ifram{
+    height: 300px;
+    width: 100%;
+}
+
 /**!----------------- !SECTION CONTACT US END ---------------*/
