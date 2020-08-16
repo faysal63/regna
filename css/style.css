@@ -20,7 +20,7 @@ body{
 /**!-----------------SECTION hero ---------------*/
 .section-hero{
     height: 80vh;
-    background-image: linear-gradient(rgba(1, 0, 0, .8), rgba(114, 112, 113, 0.8) ),  url(../img/hero-bg.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6) ),  url(../img/hero-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -199,7 +199,7 @@ body{
 
 /**!----------------- SECTION CALL ACTION ---------------*/
 .section-call{
-    background-image: linear-gradient(rgba(58, 57, 57, 0.8), rgba(59, 61, 61, 0.8) ), url(/assets/img/call-to-action-bg.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6) ), url(/assets/img/call-to-action-bg.jpg);
     height: 300PX;
     background-attachment: fixed;
 }
