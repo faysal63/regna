@@ -131,7 +131,7 @@ body{
 }
 
 .section-facts{
-    margin: 50px;
+    margin: 50px 0;
     
     background-color: rgb(247,247,247);
     padding: 70px;
@@ -147,16 +147,17 @@ body{
 /**!----------------- SECTION SERVICE---------------*/
 .service-items__items{
     border: 1px solid rgb(221, 219, 219);
-    justify-content: center;
-    align-items: center;
-    padding: 0 15px;
+    margin: 25px 20px;
+    padding: 0 30px !important;
     font-size: 14px;
     background-color: rgb(253, 251, 251);
-    margin-bottom: 50px;
+    
+    height: 200px;
 }
 
 .section-service__service-items{
        margin-top: 70px;
+       
 }
 
 .items-title{
@@ -190,6 +191,8 @@ body{
     color: rgb(2, 196, 176);
     cursor: pointer;
 }
+
+
 
 /**!----------------- !SECTION SERVICE ---------------*/
 
@@ -348,4 +351,9 @@ body{
     font-size: 14px;
     color: gray;
 }
-/**!----------------- !SECTION TEAM END---------------*/
+/**!----------------- !SECTION TEAM END ---------------*/
+
+
+/**!----------------- !SECTION CONTACT US START ---------------*/
+
+/**!----------------- !SECTION CONTACT US END ---------------*/
