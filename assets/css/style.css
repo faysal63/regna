@@ -115,7 +115,7 @@ body{
  }
 
  .about-background{
-     background-image: url(/assets/img/about-img.jpg);
+     background-image: url(../img/about-img.jpg);
      background-repeat: no-repeat;
      background-position: center;
      min-height: 500px;
@@ -199,7 +199,7 @@ body{
 
 /**!----------------- SECTION CALL ACTION ---------------*/
 .section-call{
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6) ), url(/assets/img/call-to-action-bg.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6) ), url(../img/call-to-action-bg.jpg);
     height: 300PX;
     background-attachment: fixed;
 }
@@ -322,6 +322,8 @@ body{
 .section-team__text-container{
     margin-bottom: 70px;
 }
+
+
 
 .team-member__person-details{
     margin-top: 50px;
